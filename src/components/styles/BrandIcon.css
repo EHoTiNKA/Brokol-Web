@@ -1,0 +1,19 @@
+.brandContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.h1Brand {
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    padding-right: 7px;
+
+}
+
+.pBrand {
+    color: #57AD55;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,17 @@
+.navButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+    height: 40px;
+    width: 80px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    font-family: 'Lato', sans-serif;
+    margin-right: 30px;
+    
+
+        
+}
