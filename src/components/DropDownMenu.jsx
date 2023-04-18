@@ -1,13 +1,13 @@
 import './styles/DropDownMenu.css'
 
-const DropDownMenu = () => {
+const DropDownMenu = ({ style }) => {
     return(
-        <div className='ddMenu'>
+        <div className='ddMenu' style={style}>
             <ul>
-                <li>dfsfs</li>
-                <li>dfsfs</li>
-                <li>dfsfs</li>
-                <li>dfsfs</li>
+                <li>Завтрак</li>
+                <li>Обед</li>
+                <li>Ужин</li>
+                <li>Десерт</li>
             </ul>
         </div>
     );

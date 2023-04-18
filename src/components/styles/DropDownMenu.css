@@ -1,6 +1,7 @@
 .ddMenu {
+    border-width: 1px;
     position: absolute;
     border-style: solid;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color:rgba(170, 173, 175, 0.219);
 }
