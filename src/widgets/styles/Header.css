@@ -3,11 +3,18 @@
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 
-.contentHeader {
+/* .contentHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+} */
+
+.contentHeader {
+    display: grid;
+    justify-items: auto;
+    align-items: center;
+    grid-template-columns: 2fr 4.9fr 0.3fr;
 }
 
 
