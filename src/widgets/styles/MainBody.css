@@ -8,7 +8,7 @@
 }
 
 
-
+  
 
 .p1 {
     font-family: 'Lato', sans-serif;
@@ -16,3 +16,7 @@
     margin-bottom: 20px;
 }
 
+
+.body {
+    margin-bottom: 80px;
+}

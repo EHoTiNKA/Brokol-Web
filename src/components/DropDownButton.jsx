@@ -1,28 +1,15 @@
-import './styles/DropDownButton.css';
-import NavButton from './NavButton';
-import DropDownMenu from './DropDownMenu';
-import { useState } from 'react';
-
-
-const HIDDEN_STATE = {display: 'none'}
-const VISIBLE_STATE = {display: 'block'}
+import "./styles/DropDownButton.css";
+import BaseDropDown from "./BaseDropDown";
+import NavButton from "./NavButton";
+import DropDownMenu from "./DropDownMenu";
 
 const DropDownButton = () => {
-
-    const [menuStyle, setMenuStyle] = useState(HIDDEN_STATE)
-    const changeDropDownState = () => {
-        if (menuStyle === HIDDEN_STATE) {
-            setMenuStyle(VISIBLE_STATE)
-        } else {
-            setMenuStyle(HIDDEN_STATE)
-        }
-    }
-    return(
-        <div className='ddButton'>
-            <NavButton text={"Меню"} onClick={changeDropDownState}/>
-            <DropDownMenu style={menuStyle} />
-        </div>
-    );
+  return (
+    <BaseDropDown
+      button={<NavButton text={"Меню"} />}
+      menu={<DropDownMenu />}
+    />
+  );
 };
 
 export default DropDownButton;

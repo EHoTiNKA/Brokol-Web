@@ -1,16 +1,19 @@
 import "./styles/MainFooter.css";
 import ContentColumn from "../components/ContentColumn";
 import BrandIconWhite from "../components/BrandIconWhite";
-import FooterBlock1 from "./FooterBlock1";
-
+import FooterBlock from "./FooterBlock";
+import LanguageDropDown from "../components/LanguageDropDown";
 const MainFooter = () => {
   return (
     <div className="footer">
       <ContentColumn>
         <div className="footerContent">
-            <FooterBlock1>
-                <div className="block1Content">fdsfsf</div>
-            </FooterBlock1>
+            <FooterBlock>
+                <BrandIconWhite />
+            </FooterBlock>
+            <FooterBlock>
+              <LanguageDropDown />
+            </FooterBlock>
         </div>
       </ContentColumn>
     </div>

@@ -1,8 +1,8 @@
 import './styles/DropDownMenu.css'
 
-const DropDownMenu = ({ style }) => {
+const DropDownMenu = () => {
     return(
-        <div className='ddMenu' style={style}>
+        <div className='ddMenu'>
             <ul>
                 <li>Завтрак</li>
                 <li>Обед</li>
