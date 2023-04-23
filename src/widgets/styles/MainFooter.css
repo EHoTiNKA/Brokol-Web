@@ -1,7 +1,34 @@
 .footer {
     background-color: #262626;
     padding-top: 15px;
-    
 }
 
+.footerGrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footerGrid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+.firstGridCollumn {
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+.secondGridCollumn {
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.thirdGridCollumn {
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
 

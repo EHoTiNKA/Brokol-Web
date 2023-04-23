@@ -1,0 +1,13 @@
+.colorGreenTag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.greenP {
+    font-family: 'Lato', sans-serif;
+    color: #49A144; 
+}
