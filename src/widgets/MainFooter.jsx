@@ -24,15 +24,15 @@ const MainFooter = () => {
               <FooterSocialIcon />
               </div>
               <div className="secondGridCollumn">
-                <p>Об UberEats</p>
-                <p>Станьте партнёром по доставке</p>
-                <p>Станьте парнёром-рестораном</p>
+                <p className="gridSecondp">Об MegaBrocols</p>
+                <p className="gridSecondp">Станьте партнёром по доставке</p>
+                <p className="gridSecondp">Станьте парнёром-рестораном</p>
               </div>
               <div className="thirdGridCollumn">
-                <p>Все города</p>
-                <p>Цены</p>
-                <p>Помощь</p>
-                <p>FAQs</p>
+                <p className="gridThirdp">Все города</p>
+                <p className="gridThirdp">Цены</p>
+                <p className="gridThirdp">Помощь</p>
+                <p className="gridThirdp">FAQs</p>
               </div>
               </div>
             </FooterBlock>
