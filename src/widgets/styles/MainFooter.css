@@ -41,3 +41,7 @@
 .gridSecondp {
     padding: 15px;
 }
+
+.socialIcons > * {
+    margin-right: 15px;
+}
