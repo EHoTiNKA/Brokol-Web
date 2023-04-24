@@ -5,10 +5,12 @@ import DropDownMenu from "./DropDownMenu";
 
 const DropDownButton = () => {
   return (
+    <div className="mainDDbutton">
     <BaseDropDown
       button={<NavButton text={"Меню"} />}
       menu={<DropDownMenu />}
     />
+    </div>
   );
 };
 
