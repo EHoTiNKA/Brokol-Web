@@ -5,6 +5,8 @@ import Search from "../components/Search";
 import BrandIcon from "../components/BrandIcon";
 import DropDownButton from "../components/DropDownButton";
 
+
+
 const Header = () => {
   return (
     <div className="mainHeader">
@@ -14,7 +16,7 @@ const Header = () => {
           <DropDownButton />
           <NavBar />
         </div>
-      </ContentColumn>
+      </ContentColumn> 
     </div>
   );
 };

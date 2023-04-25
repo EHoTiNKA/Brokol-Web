@@ -6,6 +6,7 @@ import PosterMak from "../assets/posterMak.svg";
 import Eda1 from "../assets/eda1.svg";
 import Eda2 from "../assets/eda2.svg";
 
+
 const MainBody = () => {
   return (
     <div className="body">

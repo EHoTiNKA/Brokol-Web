@@ -3,6 +3,7 @@ import NavButton from "../components/NavButton";
 import BasketButton from "../components/BasketButton";
 
 const NavBar = () => {
+
   return (
     <div className="mainNav">
       <NavButton text="Войти" />
