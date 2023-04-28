@@ -11,10 +11,10 @@
 } */
 
 .contentHeader {
-    display: grid;
-    justify-items: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    grid-template-columns: 2fr 4.9fr 0.3fr;
+    gap: 20px;
 }
 
 

@@ -1,0 +1,18 @@
+.modalBackGround {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modalContent {
+    color: aliceblue;
+}
+
