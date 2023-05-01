@@ -1,4 +1,4 @@
-import './styles/BrandIcon.css'
+import './styles/BrandIcon.scss'
 
 const BrandIcon = () => {
     return(

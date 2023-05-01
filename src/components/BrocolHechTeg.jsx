@@ -1,4 +1,4 @@
-import "./styles/BrocolHechTeg.css"
+import "./styles/BrocolHechTeg.scss"
 
 
 const BrocolHechTeg = () => {

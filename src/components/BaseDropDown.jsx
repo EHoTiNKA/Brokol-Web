@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles/BaseDropDown.css";
+import "./styles/BaseDropDown.scss";
 
 const HIDDEN_STATE = { display: "none" };
 const VISIBLE_STATE = { display: "block" };

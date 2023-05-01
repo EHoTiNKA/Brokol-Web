@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Header from "./src/widgets/Header";
 import MainBody from './src/widgets/MainBody'
 import MainFooter from './src/widgets/MainFooter';

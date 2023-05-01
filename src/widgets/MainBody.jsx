@@ -1,4 +1,4 @@
-import "./styles/MainBody.css";
+import "./styles/MainBody.scss";
 import Search from '../components/Search';
 import ContentColumn from '../components/ContentColumn';
 import MainCard from "../components/MainCard";

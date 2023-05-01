@@ -1,4 +1,4 @@
-import './styles/MainCard.css'
+import './styles/MainCard.scss'
 
 
 const MainCard = ({ poster, name, text1, text2 }) => {

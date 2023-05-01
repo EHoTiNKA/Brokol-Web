@@ -1,4 +1,4 @@
-import './styles/DropDownMenu.css'
+import './styles/DropDownMenu.scss'
 
 const DropDownMenu = () => {
     return(

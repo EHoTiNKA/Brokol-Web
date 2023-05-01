@@ -1,4 +1,4 @@
-import './styles/NavButton.css';
+import './styles/NavButton.scss';
 
 
 const NavButton = ({ text, onClick }) => {

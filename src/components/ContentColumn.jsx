@@ -1,4 +1,4 @@
-import './styles/ContentColumn.css'
+import './styles/ContentColumn.scss'
 
 const ContentColumn = ({ children }) => {
     return(

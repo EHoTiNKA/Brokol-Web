@@ -1,4 +1,4 @@
-import './styles/BasketButton.css';
+import './styles/BasketButton.scss';
 import BasketIcon from '../assets/basket.svg'
 
 const BasketButton = () => {

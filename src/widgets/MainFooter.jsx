@@ -1,4 +1,4 @@
-import "./styles/MainFooter.css";
+import "./styles/MainFooter.scss";
 import ContentColumn from "../components/ContentColumn";
 import BrandIconWhite from "../components/BrandIconWhite";
 import FooterBlock from "./FooterBlock";

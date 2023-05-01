@@ -1,4 +1,4 @@
-import './styles/FooterBlock.css'
+import './styles/FooterBlock.scss'
 
 
 const FooterBlock = ({ children }) => {

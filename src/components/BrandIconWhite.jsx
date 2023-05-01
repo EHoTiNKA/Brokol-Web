@@ -1,4 +1,4 @@
-import './styles/BrandIconWhite.css'
+import './styles/BrandIconWhite.scss'
 
 const BrandIconWhite = () => {
     return(

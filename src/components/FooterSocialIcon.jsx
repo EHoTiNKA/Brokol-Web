@@ -1,4 +1,4 @@
-import "./styles/FooterSocialIcon.css"
+import "./styles/FooterSocialIcon.scss"
 import InstagramSvg from '../assets/instagram.svg'
 import TwitterSvg from '../assets/twitter.svg'
 

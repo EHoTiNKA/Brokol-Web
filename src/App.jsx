@@ -1,5 +1,5 @@
-import "./App.css";
-import Header from "./widgets/header";
+import "./App.scss";
+import Header from "./widgets/Header";
 import MainBody from "./widgets/MainBody";
 import MainFooter from "./widgets/MainFooter";
 

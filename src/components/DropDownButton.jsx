@@ -1,4 +1,4 @@
-import "./styles/DropDownButton.css";
+import "./styles/DropDownButton.scss";
 import BaseDropDown from "./BaseDropDown";
 import NavButton from "./NavButton";
 import DropDownMenu from "./DropDownMenu";

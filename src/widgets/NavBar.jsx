@@ -1,9 +1,9 @@
-import "./styles/NavBar.css";
+import "./styles/NavBar.scss";
 import NavButton from "../components/NavButton";
 import BasketButton from "../components/BasketButton";
 import DropDownButton from "../components/DropDownButton";
 import BaseModal from "../components/BaseModal";
-import SignIn from "./SignIn";
+import SignInModal from "../components/SignInModal";
 
 const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ const NavBar = () => {
       <DropDownButton />
       <div className="navSpacer"></div>
       <BaseModal buttonText={"Войти"}> 
-      <SignIn /> 
+      <SignInModal /> 
       </BaseModal>
       <BasketButton />
     </div>

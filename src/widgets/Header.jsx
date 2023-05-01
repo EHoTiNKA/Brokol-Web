@@ -1,4 +1,4 @@
-import "./styles/Header.css";
+import "./styles/Header.scss";
 import NavBar from "./NavBar";
 import ContentColumn from "../components/ContentColumn";
 import BrandIcon from "../components/BrandIcon";

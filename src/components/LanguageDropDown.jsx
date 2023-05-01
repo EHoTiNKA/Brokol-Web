@@ -1,4 +1,4 @@
-import "./styles/LanguageDropDown.css";
+import "./styles/LanguageDropDown.scss";
 import BaseDropDown from "./BaseDropDown";
 
 const LanguageDropDown = () => {

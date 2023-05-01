@@ -1,4 +1,4 @@
-import "./styles/BaseModal.css";
+import "./styles/BaseModal.scss";
 import NavButton from "./NavButton";
 import { useState } from "react";
 
