@@ -1,3 +1,27 @@
-.modalBackground {
-    
+$primary-color: #57AD56;
+
+
+
+
+.signUpModal {
+    width: 800px;
+    height: 578px;
+    background-color:#ffff;
+    border-radius: 4rem;
+    display: grid;
+    grid-template-columns: 2fr 67px 1fr;
+
+
+    .logInInvitation {
+        
+        background-color: $primary-color;
+        border-top-right-radius: 4rem;
+        border-bottom-right-radius: 4rem;
+    }
 }
+
+.secondGridModal {
+    display: grid;
+
+}
+

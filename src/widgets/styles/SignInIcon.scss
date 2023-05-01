@@ -1,3 +1,13 @@
+@import '../../components/styles/SignInModal.scss';
+
+
 .curveSignIn path {
-    fill: #57AD56
+    fill: $primary-color
 }
+
+// .curveSignIn {
+//     svg {
+//         width: 67px;
+//         height: 600px;
+//     }
+// }
