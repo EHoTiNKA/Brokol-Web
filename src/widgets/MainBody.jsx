@@ -1,11 +1,10 @@
 import "./styles/MainBody.scss";
-import Search from '../components/Search';
-import ContentColumn from '../components/ContentColumn';
+import Search from "../components/Search";
+import ContentColumn from "../components/ContentColumn";
 import MainCard from "../components/MainCard";
 import PosterMak from "../assets/posterMak.svg";
 import Eda1 from "../assets/eda1.svg";
 import Eda2 from "../assets/eda2.svg";
-
 
 const MainBody = () => {
   return (
