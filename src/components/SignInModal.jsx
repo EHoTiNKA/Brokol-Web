@@ -24,14 +24,11 @@ const SignInModal = () => {
         <button className="regButton">Регистрация</button>
       </div>
       <SignInIcon />
-      <div className="secondGridModal">
-        <div className="logInInvitation">
-          <div className="secondModalContent">
-            <h2>Добро пожаловать обратно</h2>
-            <p>Готовы вернуться обратно к заказам?</p>
-            <button>Войти</button>
-          </div>
-        </div>
+
+      <div className="logInInvitation">
+        <h2>Добро пожаловать обратно</h2>
+        <p>Готовы вернуться обратно к заказам?</p>
+        <button>Войти</button>
       </div>
     </div>
   );

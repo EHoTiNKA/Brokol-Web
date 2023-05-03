@@ -6,64 +6,39 @@ $primary-color: #57ad56;
   background-color: #ffff;
   border-radius: 4rem;
   display: grid;
-  grid-template-columns: 2fr 67px 1fr;
+  grid-template-columns: 2fr 80px 1fr;
   font-family: "Lato", sans-serif;
+  overflow: hidden;
+  align-items: stretch;
 
   .logInInvitation {
     background-color: $primary-color;
-    border-top-right-radius: 4rem;
-    border-bottom-right-radius: 4rem;
-    
-  }
-}
+    display: flex;
+    flex-direction: column;
 
-.secondGridModal {
-  display: grid;
+    h2 {
+      margin-bottom: 5px;
+    }
+    p {
+      margin-bottom: 20px;
+
+      font-size: large;
+    }
+  }
 }
 
 .signUpForm {
   display: flex;
   flex-direction: column;
-  align-self: center;
+  font-family: "Lato", sans-serif;
 
   h1 {
     margin-bottom: 5px;
-    justify-self: center;
-    align-self: center;
   }
   p {
     margin-bottom: 20px;
-    justify-self: center;
-    align-self: center;
-    font-size: large;
-  }
 
-  .formGroup1 {
-    align-self: center;
-    justify-self: center;
-    font-family: "Lato", sans-serif;
-  }
-  .formGroup2 {
-    align-self: center;
-    justify-self: center;
-    font-family: "Lato", sans-serif;
-  }
-  .formGroup3 {
-    align-self: center;
-    justify-self: center;
-    font-family: "Lato", sans-serif;
-  }
-  .labelName {
-    font-family: "Lato", sans-serif;
-    font-size: larger;
-  }
-  .labelPass {
-    font-family: "Lato", sans-serif;
-    font-size: larger;
-  }
-  .labelMail {
-    font-family: "Lato", sans-serif;
-    font-size: larger;
+    font-size: large;
   }
 
   input {
@@ -84,16 +59,15 @@ $primary-color: #57ad56;
     margin-top: 25px;
     width: 200px;
     height: 45px;
-    align-self: center;
-    justify-self: center;
+
     color: white;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
     // padding: .8em 1em calc(.8em + 3px);
     border-radius: 3px;
-    background: rgb(64,199,129);
-    box-shadow: 0 -3px rgb(53,167,110) inset;
+    background: rgb(64, 199, 129);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
     transition: 0.2s;
     border-style: hidden;
   }
@@ -102,22 +76,4 @@ $primary-color: #57ad56;
 .labelName {
   font-family: "Lato", sans-serif;
   font-size: larger;
-}
-
-.secondModalContent{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-
-    h2 {
-        margin-bottom: 5px;
-        justify-self: center;
-        align-self: center;
-      }
-      p {
-        margin-bottom: 20px;
-        justify-self: center;
-        align-self: center;
-        font-size: large;
-      }
 }
