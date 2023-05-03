@@ -1,7 +1,7 @@
-import './styles/FoodDesigner.scss';
+import './styles/FoodDesignerButton.scss';
 
 
-const FoodDesigner = ({ text, onClick }) => {
+const FoodDesignerButton = ({ text, onClick }) => {
     return(
         <div className="FoodDesignerButton open-btn" onClick={onClick}>
             <button>{text}</button>            
@@ -9,4 +9,4 @@ const FoodDesigner = ({ text, onClick }) => {
     );
 };
 
-export default FoodDesigner;
+export default FoodDesignerButton;

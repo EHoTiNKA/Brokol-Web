@@ -4,7 +4,7 @@ import BasketButton from "../components/BasketButton";
 import DropDownButton from "../components/DropDownButton";
 import BaseModal from "../components/BaseModal";
 import SignInModal from "../components/SignInModal";
-import FoodDesigner from "../components/FoodDesigner";
+import FoodDesigner from "../components/FoodDesignerButton";
 
 const NavBar = () => {
   return (

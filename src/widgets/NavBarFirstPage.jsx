@@ -2,7 +2,7 @@ import "./styles/NavBarFirstPage.scss";
 import BasketButton from "../components/BasketButton";
 import BaseModal from "../components/BaseModal";
 import SignInModal from "../components/SignInModal";
-import FoodDesigner from "../components/FoodDesigner";
+import FoodDesigner from "../components/FoodDesignerButton";
 
 const NavBarFirstPage = () => {
   return (

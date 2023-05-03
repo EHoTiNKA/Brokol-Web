@@ -4,7 +4,7 @@ import SignInIcon from "../widgets/SignInIcon";
 
 const SignInModal = () => {
   return (
-    <div className="signUpModal">
+    <div className="signUpModal"> 
       <div className="signUpForm">
         <h1>Регистрация</h1>
         <p>Нет аккаунта, так давайте заведём!</p>
