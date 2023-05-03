@@ -10,6 +10,20 @@ $primary-color: #57ad56;
   font-family: "Lato", sans-serif;
   overflow: hidden;
 
+  transform: translateY(-110%);
+  animation: signUpModal 1s forwards;
+
+  @keyframes signUpModal {
+    0% {
+      transform: translateY(-200%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+
+  }
+
   .logInInvitation {
     background-color: $primary-color;
     display: flex;
@@ -46,11 +60,8 @@ $primary-color: #57ad56;
       transition: 0.2s;
       border-style: hidden;
     }
-
   }
 }
-
-
 
 .signUpForm {
   display: flex;
