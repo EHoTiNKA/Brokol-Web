@@ -1,5 +1,5 @@
 import './styles/FirstPage.scss';
-import Header from './Header';
+import HeaderFirstPage from './HeaderFirstPage';
 import FirstMainBody from './FirstMainBody';
 import MainFooter from './MainFooter';
 
@@ -7,7 +7,7 @@ import MainFooter from './MainFooter';
 const FirstPage = () => {
     return(
         <div>
-            <Header/>
+            <HeaderFirstPage/>
             <FirstMainBody/>
             <MainFooter/>
         </div>

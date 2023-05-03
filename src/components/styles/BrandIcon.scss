@@ -2,6 +2,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none;
+    cursor: pointer; 
 }
 
 

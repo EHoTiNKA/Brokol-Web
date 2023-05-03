@@ -9,9 +9,15 @@
     padding-bottom: 20px;
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
     margin-bottom: 60px;
+    
 
     p {
         cursor: pointer;
+        -ms-user-select: none; 
+        -moz-user-select: none; 
+        -webkit-user-select: none; 
+        user-select: none;
+
     }
 
 }
