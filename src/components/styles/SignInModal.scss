@@ -21,7 +21,6 @@ $primary-color: #57ad56;
     100% {
       transform: translateY(0);
     }
-
   }
 
   .logInInvitation {
@@ -35,11 +34,19 @@ $primary-color: #57ad56;
     h2 {
       margin-bottom: 5px;
       text-align: center;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
     }
     p {
       margin-bottom: 20px;
       text-align: center;
       font-size: large;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
     }
     button {
       margin-bottom: 170px;
@@ -72,11 +79,25 @@ $primary-color: #57ad56;
 
   h1 {
     margin-bottom: 5px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
   p {
     margin-bottom: 20px;
-
     font-size: large;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  label {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   input {
