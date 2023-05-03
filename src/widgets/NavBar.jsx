@@ -4,11 +4,13 @@ import BasketButton from "../components/BasketButton";
 import DropDownButton from "../components/DropDownButton";
 import BaseModal from "../components/BaseModal";
 import SignInModal from "../components/SignInModal";
+import FoodDesigner from "../components/FoodDesigner";
 
 const NavBar = () => {
   return (
     <div className="mainNav">
       <DropDownButton />
+      <FoodDesigner text={'Конструктор блюд'} />
       <div className="navSpacer"></div>
       <BaseModal buttonText={"Войти"}> 
       <SignInModal /> 
