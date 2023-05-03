@@ -23,10 +23,11 @@ const SignInModal = () => {
 
         <button className="regButton">Регистрация</button>
       </div>
+
       <SignInIcon />
 
       <div className="logInInvitation">
-        <h2>Добро пожаловать обратно</h2>
+        <h2>Возвращаетесь?</h2>
         <p>Готовы вернуться обратно к заказам?</p>
         <button>Войти</button>
       </div>
