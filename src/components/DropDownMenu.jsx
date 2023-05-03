@@ -4,10 +4,10 @@ const DropDownMenu = () => {
     return(
         <div className='ddMenu'>
             <ul>
-                <li><a>Завтрак</a></li>
-                <li><a>Обед</a></li>
-                <li><a>Ужин</a></li>
-                <li><a>Десерт</a></li>
+                <li><a id='Завтрак'>Завтрак</a></li>
+                <li><a id='Обед'>Обед</a></li>
+                <li><a id='Ужин'>Ужин</a></li>
+                <li><a id='Десерт'>Десерт</a></li>
             </ul> 
         </div>
     ); 

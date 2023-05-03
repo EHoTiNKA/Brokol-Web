@@ -12,12 +12,12 @@ const FirstMainBody = () => {
       <ContentColumn>
         <img src={FirstSvgBody} alt="FOTO_EDA" className="firstSvgBodyWidth" />
         <div className="firstMenuContent">
-          <p>Закуски</p>
-          <p>Салаты</p>
-          <p>Супы</p>
-          <p>Горячие блюда</p>
-          <p>Гарниры</p>
-          <p>Десерты</p>
+          <p id='Закуски'> Закуски</p>
+          <p id='Салаты'>Салаты</p>
+          <p id='Супы'>Супы</p>
+          <p id='Горячие блюда'>Горячие блюда</p>
+          <p id='Гарниры'>Гарниры</p>
+          <p id='Десерты'>Десерты</p>
         </div>
         <div className="pEdit">
           <p className="p1">Закуски</p>
