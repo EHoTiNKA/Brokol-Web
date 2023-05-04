@@ -1,0 +1,23 @@
+.FoodFoodDesignerModalMain {
+  width: 1500px;
+  height: 1000px;
+  background-color: #ffff;
+  border-radius: 4rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+
+  transform: translateY(-110%);
+  animation: signUpModal 1s forwards;
+
+  @keyframes signUpModal {
+    0% {
+      transform: translateY(-200%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+}

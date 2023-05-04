@@ -2,15 +2,17 @@ import "./styles/NavBarFirstPage.scss";
 import BasketButton from "../components/BasketButton";
 import BaseModal from "../components/BaseModal";
 import SignInModal from "../components/SignInModal";
-import FoodDesigner from "../components/FoodDesignerButton";
+import FoodDesignerModal from "../components/FoodDesignerModal";
 
 const NavBarFirstPage = () => {
   return (
     <div className="mainNav">
-      <FoodDesigner text={'Конструктор блюд'} />
+      <BaseModal buttonText={"Конструктор блюд"}>
+        <FoodDesignerModal />
+      </BaseModal>
       <div className="navSpacer"></div>
-      <BaseModal buttonText={"Войти"}> 
-      <SignInModal /> 
+      <BaseModal buttonText={"Войти"}>
+        <SignInModal />
       </BaseModal>
       <BasketButton />
     </div>
