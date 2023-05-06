@@ -1,8 +1,9 @@
-
-
 .card{
-    justify-self: stretch;
-    align-self: stretch;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 .cardPoster {
@@ -21,7 +22,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin-top: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 4px; 
     color: #626262;
 }
 

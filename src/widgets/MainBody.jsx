@@ -15,7 +15,7 @@ const MainBody = () => {
         <div className="cardsContent">
           <MainCard
             poster={PosterMak}
-            name="Макдональдс - Газетный"
+            name="Макдональдс - Газетный" 
             text1="₽ • Бургеры"
             text2="25-35 мин"
           />
