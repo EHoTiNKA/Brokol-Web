@@ -1,15 +1,10 @@
 import "./App.scss";
-import Header from "./widgets/Header";
-import MainBody from "./widgets/MainBody";
-import MainFooter from "./widgets/MainFooter";
-import FirstPage from "./widgets/FirstPage";
-import SecondPage from "./widgets/SecondPage";
+import PageLayout from "./Pages/PageLayout";
 
 function App() {
   return (
     <div className="App">
-      <FirstPage/>
-      <SecondPage/>
+      <PageLayout/>
     </div>
   );
 }

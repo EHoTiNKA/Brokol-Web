@@ -1,11 +1,9 @@
 import "./styles/FirstMainBody.scss";
+import { Link } from "react-router-dom";
 import ContentColumn from "../components/ContentColumn";
 import FirstSvgBody from "../assets/firstSvgBody.svg";
 import FirstPageMainCard from "../components/FirstPageMainCard";
-import NavButton from '../components/NavButton';
 import Selda from "../assets/selda.png";
-import Eda1 from "../assets/eda1.svg";
-import Eda2 from "../assets/eda2.svg";
 
 const FirstMainBody = () => {
   return (
@@ -13,12 +11,14 @@ const FirstMainBody = () => {
       <ContentColumn>
         <img src={FirstSvgBody} alt="FOTO_EDA" className="firstSvgBodyWidth" />
         <div className="firstMenuContent">
-          <p id='Закуски'> Закуски</p>
-          <p id='Салаты'>Салаты</p>
-          <p id='Супы'>Супы</p>
-          <p id='Горячие блюда'>Горячие блюда</p>
-          <p id='Гарниры'>Гарниры</p>
-          <p id='Десерты'>Десерты</p>
+          <Link to="/menu/brakfast">
+            <p id="Закуски"> Закуски </p>
+          </Link>
+          <p id="Салаты">Салаты</p>
+          <p id="Супы">Супы</p>
+          <p id="Горячие блюда">Горячие блюда</p>
+          <p id="Гарниры">Гарниры</p>
+          <p id="Десерты">Десерты</p>
         </div>
         <div className="pEdit">
           <p className="p1">Закуски</p>
