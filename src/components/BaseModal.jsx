@@ -23,7 +23,7 @@ const BaseModal = ({ buttonText, children }) => {
         onClick={changeModalState}
         style={modalStyle}
       >
-        <div className="modalContent">{children}</div>
+        <div className="modalContent" onClick={(e) => e.stopPropagation()} >{children}</div>
       </div>
     </div>
   );
