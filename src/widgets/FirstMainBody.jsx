@@ -14,11 +14,21 @@ const FirstMainBody = () => {
           <Link to="/menu/brakfast">
             <p id="Закуски"> Закуски </p>
           </Link>
+          <Link to="/menu/brakfast">
           <p id="Салаты">Салаты</p>
+          </Link>
+          <Link to="/menu/brakfast">
           <p id="Супы">Супы</p>
+          </Link>
+          <Link to="/menu/brakfast">
           <p id="Горячие блюда">Горячие блюда</p>
+          </Link>
+          <Link to="/menu/brakfast">
           <p id="Гарниры">Гарниры</p>
+          </Link>
+          <Link to="/menu/brakfast">
           <p id="Десерты">Десерты</p>
+          </Link>
         </div>
         <div className="pEdit">
           <p className="p1">Закуски</p>
