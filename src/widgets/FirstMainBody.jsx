@@ -2,6 +2,7 @@ import "./styles/FirstMainBody.scss";
 import ContentColumn from "../components/ContentColumn";
 import FirstSvgBody from "../assets/firstSvgBody.svg";
 import FirstPageMainCard from "../components/FirstPageMainCard";
+import NavButton from '../components/NavButton';
 import Selda from "../assets/selda.png";
 import Eda1 from "../assets/eda1.svg";
 import Eda2 from "../assets/eda2.svg";
