@@ -37,6 +37,7 @@ const MainFooter = () => {
                       className={hovered[index] ? "fa-shake fa-3x " : "fa-3x"}
                       onMouseEnter={() => toggleHover(index)}
                       onMouseLeave={() => toggleHover(index)}
+                      key={index}
                     />
                   ))}
                 </div>

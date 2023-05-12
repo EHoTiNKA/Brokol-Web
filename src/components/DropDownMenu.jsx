@@ -6,24 +6,22 @@ const DropDownMenu = () => {
     <div className="ddMenu">
       <ul>
         <Link to="/menu/brakfast">
-          <li>
-            <a id="Завтрак">Завтрак</a>
-          </li>
+          <li>Закуски</li>
         </Link>
-        <Link to="/menu/brakfast">
-          <li>
-            <a id="Обед">Обед</a>
-          </li>
+        <Link to="/menu/salads">
+          <li>Салаты</li>
         </Link>
-        <Link to="/menu/brakfast">
-          <li>
-            <a id="Ужин">Ужин</a>
-          </li>
+        <Link to="/menu/soups">
+          <li>Супы</li>
         </Link>
-        <Link to="/menu/brakfast">
-          <li>
-            <a id="Десерт">Десерт</a>
-          </li>
+        <Link to="/menu/hot dishes">
+          <li>Горячие блюда</li>
+        </Link>
+        <Link to="/menu/side dishes">
+          <li>Гарниры</li>
+        </Link>
+        <Link to="/menu/desserts">
+          <li>Десерты</li>
         </Link>
       </ul>
     </div>

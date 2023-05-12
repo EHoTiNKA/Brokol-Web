@@ -19,6 +19,7 @@ const BaseDropDown = ({ button, menu }) => {
         {button}
       </div>
       <div style={menuStyle} className="ddBaseMenu">
+        <div className="ddBackGround" onClick={changeDropDownState} ></div>
         {menu}
       </div>
     </div>
