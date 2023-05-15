@@ -2,21 +2,17 @@ import { useState } from "react";
 import useOutsideClick from "../hooks/useOutsideClick";
 import "./styles/BaseDropDown.scss";
 
-const HIDDEN_STATE = { display: "none" };
-const VISIBLE_STATE = { display: "block" };
-
 const BaseDropDown = ({ button, menu }) => {
-  const [menuStyle, setMenuStyle] = useState(HIDDEN_STATE);
-
+  const [isOpen, setIsOpen] = useState(false);
 
   const openDropDown = () => {
-    setMenuStyle(VISIBLE_STATE);
-    console.log("openDropDown")
-  }
+    setIsOpen(true);
+    console.log("openDropDown");
+  };
 
   const closeDropDown = () => {
-    setMenuStyle(HIDDEN_STATE);
-  }
+    setIsOpen(false);
+  };
 
   const ref = useOutsideClick(closeDropDown);
   return (
@@ -24,9 +20,12 @@ const BaseDropDown = ({ button, menu }) => {
       <div onClick={openDropDown} className="ddBaseButton">
         {button}
       </div>
-      <div ref={ref} style={menuStyle} className="ddBaseMenu">
-        {menu}
-      </div>
+
+      {isOpen ? (
+        <div ref={ref} className="ddBaseMenu">
+          {menu}
+        </div>
+      ) : null}
     </div>
   );
 };
