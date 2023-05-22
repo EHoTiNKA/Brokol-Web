@@ -3,17 +3,17 @@
     padding-top: 15px;
 }
 
-.footerGrid2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
+
 
 .footerGrid3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Lato', sans-serif;
     color: aliceblue;
+
+    @media screen and (max-width: 450px) {
+        grid-template-columns: 1fr;        
+    }
 }
 
 .firstGridCollumn {

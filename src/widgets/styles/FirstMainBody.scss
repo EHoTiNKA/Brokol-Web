@@ -31,4 +31,19 @@
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   margin-bottom: 80px;
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr;    
+  }
+}
+
+.mainBanner{
+  height: 370px;
+  background-image: url(../../assets/firstSvgBody.svg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.titleCardsContainer{
+  margin: 0 10px;
 }

@@ -26,7 +26,7 @@ const MainFooter = () => {
             <BrandIconWhite />
           </FooterBlock>
           <FooterBlock>
-            <div className="footerGrid2">
+            <div className="footerGrid3">
               <div className="firstGridCollumn">
                 <LanguageDropDown />
                 <BrocolHechTeg />
