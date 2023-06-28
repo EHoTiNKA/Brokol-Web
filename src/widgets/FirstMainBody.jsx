@@ -37,7 +37,7 @@ const FirstMainBody = () => {
             <FirstPageMainCard
               poster={Selda}
               name="Сельдь на бородинском хлебе"
-              description="С яйцом и огурцом"
+              description="С яйцом и луком"
               price="450 ₽"
             />
             <FirstPageMainCard
