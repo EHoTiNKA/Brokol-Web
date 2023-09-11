@@ -8,4 +8,4 @@ const ContentColumn = ({ children }) => {
     );
 };
 
-export default ContentColumn;
+export default ContentColumn; 

@@ -7,6 +7,6 @@ function App() {
       <PageLayout/>
     </div>
   );
-}
+};
 
 export default App;
