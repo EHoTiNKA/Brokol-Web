@@ -11,7 +11,7 @@ const BaseModal = ({ buttonText, children }) => {
     if (modalStyle === HIDDEN_STATE) {
       setModalStyle(VISIBLE_STATE);
     } else {
-      setModalStyle(HIDDEN_STATE);
+      setModalStyle(HIDDEN_STATE); 
     }
   };
 

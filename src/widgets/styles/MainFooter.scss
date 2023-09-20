@@ -11,6 +11,13 @@
     font-family: 'Lato', sans-serif;
     color: aliceblue;
 
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none;
+    cursor: pointer; 
+
+
     @media screen and (max-width: 450px) {
         grid-template-columns: 1fr;        
     }
@@ -26,12 +33,24 @@
     font-family: 'Lato', sans-serif;
     color: aliceblue;
     font-size: 20px;
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none;
+    cursor: pointer; 
+
 }
 
 .thirdGridCollumn {
     font-family: 'Lato', sans-serif;
     color: aliceblue;
     font-size: 20px;
+    -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none;
+    cursor: pointer; 
+
 }
 
 .gridThirdp {
