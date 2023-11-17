@@ -1,6 +1,9 @@
 # Brokol Web
 
 This is my first layout project for practicing layout and programming skills of websites.
+Created using:
+- Vite + React
+- Sass
 
 ## Future plans
 
