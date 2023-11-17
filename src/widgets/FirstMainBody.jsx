@@ -16,7 +16,7 @@ const FirstMainBody = () => {
           </Link>
           <Link to="/menu/salads">
             <p id="Салаты">Салаты</p>
-          </Link>
+          </Link> 
           <Link to="/menu/soups">
             <p id="Супы">Супы</p>
           </Link>
