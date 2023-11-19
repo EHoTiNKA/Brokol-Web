@@ -24,7 +24,7 @@ git clone https://github.com/your-username/Brokol-Web.git .
 2. Install the required dependencies:
 
 ```
-pip install -r requirements.txt
+npm install
 ```
 
 3. Run the dev version:
