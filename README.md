@@ -30,9 +30,6 @@ npm install
 3. Run the dev version:
 
 ```
-cd ./Brokol
-```
-```
 npm run dev
 ```
 
