@@ -18,7 +18,7 @@ To transfer the project to yourself, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/Brokol-Web.git .
+git clone https://github.com/EHoTiNKA/Brokol-Web.git .
 ```
 
 2. Install the required dependencies:
